@@ -1,5 +1,3 @@
-hashTable = [[],] * 10
-
 def checkPrime(n):
     if n == 1 or n == 0:
         return 0
@@ -29,6 +27,8 @@ def insertData(key, data):
 def removeData(key):
     index = hashFunction(key)
     hashTable[index] = 0
+
+hashTable = [[],] * 10
 
 insertData(123, "apple")
 insertData(432, "mango")

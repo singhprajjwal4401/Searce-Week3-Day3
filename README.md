@@ -8,10 +8,10 @@ Different kinds of Pans take different amounts of time to cook. Also, once he st
 
 Help Ramu achieve the minimum average waiting time. For the sake of simplicity, just find the integer part of the minimum average waiting time.
 
-   #Input Format
-   1.The first line contains an integer N, which is the number of customers.
-   2.In the next N lines, the ith line contains two space separated numbers Ti and Li. Ti is the time when ith customer order a pan and Li is the time required to cook that pan.
-   3.The  ith customer is not the customer arriving at the  ith arrival time. 
+#Input Format
+1.The first line contains an integer N, which is the number of customers.
+2.In the next N lines, the ith line contains two space separated numbers Ti and Li. Ti is the time when ith customer order a pan and Li is the time required to cook that pan.
+3.The  ith customer is not the customer arriving at the  ith arrival time. 
 
-   #Output Format
-   Display the integer part of the minimum average waiting time.
+#Output Format
+Display the integer part of the minimum average waiting time.

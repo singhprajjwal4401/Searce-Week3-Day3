@@ -1,4 +1,6 @@
-from heapq import *
+import os
+import sys
+from heapq import heappush, heappop
 
 n = int(input())
 orders = []
